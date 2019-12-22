@@ -1,7 +1,7 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 start=$(date +%s)
-end=$(date -j -f "%a %b %d %T %Z %Y" "$1" "+%s")
+end=$(date -d"$1" "+%s")
 duration="$(( end - start ))"
 
 function displaytime {
