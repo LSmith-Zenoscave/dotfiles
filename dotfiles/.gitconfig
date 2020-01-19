@@ -11,7 +11,7 @@
 	excludesfile = /home/lsmith/.gitignore_global
   pager = less -F -X
 [alias]
-	gud = status --porcelain
+	gud = status --porcelain --short
 [gpg]
 	program = gpg
 [commit]
