@@ -1,3 +1,19 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/LSmith-Zenoscave/prezto
+
+[submodule "Vundle.vim"]
+	path = dotfiles/.vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
+
+[submodule "vim-dirdiff"]
+	path = dotfiles/.vim/bundle/vim-dirdiff
+	url = https://github.com/will133/vim-dirdiff
+
+[submodule "vim-sensible"]
+	path = dotfiles/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+
+[submodule "vim-solarized8"]
+	path = dotfiles/.vim/bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
