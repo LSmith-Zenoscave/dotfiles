@@ -17,3 +17,6 @@
 [submodule "vim-solarized8"]
 	path = dotfiles/.vim/bundle/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8
+[submodule "dotfiles/.vim/bundle/nerdtree"]
+	path = dotfiles/.vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree

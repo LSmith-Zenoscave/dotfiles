@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'will133/vim-dirdiff'
 Plugin 'lifepillar/vim-solarized8'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
