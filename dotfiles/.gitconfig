@@ -10,6 +10,7 @@
 [core]
 	excludesfile = /home/lsmith/.gitignore_global
   pager = less -F -X
+	whitespace = -blank-at-eof
 [alias]
 	gud = status --porcelain --short
 [gpg]
