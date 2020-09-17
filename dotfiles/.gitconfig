@@ -9,7 +9,7 @@
 	signingKey = lsmith@zenoscave.com
 [core]
 	excludesfile = /home/lsmith/.gitignore_global
-  pager = less -F -X
+	pager = less -F -X
 	whitespace = -blank-at-eof
 [alias]
 	gud = status --porcelain --short
