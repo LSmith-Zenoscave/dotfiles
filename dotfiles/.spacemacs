@@ -13,7 +13,6 @@
      c-c++
      csv
      emacs-lisp
-     emoji
      git
      helm
      html
@@ -29,7 +28,7 @@
      )
    dotspacemacs-additional-packages '()
    dotspacemacs-frozen-packages '()
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(company-tern)
    dotspacemacs-install-packages 'used-only))
 (defun dotspacemacs/init ()
   (setq-default
