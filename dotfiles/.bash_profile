@@ -2,6 +2,9 @@
 
 source "$HOME/.bashrc"
 
+[[ -d "$HOME/.poetry/bin" ]] && export PATH="$HOME/.poetry/bin:$PATH"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/lsmith/.sdkman"
-[[ -s "/Users/lsmith/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lsmith/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
