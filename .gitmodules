@@ -1,6 +1,7 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/LSmith-Zenoscave/prezto
+	branch = remotes/origin/personal/lsmith-zenoscave
 
 [submodule "Vundle.vim"]
 	path = dotfiles/.vim/bundle/Vundle.vim
