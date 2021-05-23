@@ -11,9 +11,19 @@
 	excludesfile = /home/lsmith/.gitignore_global
 	pager = less -F -X
 	whitespace = -blank-at-eof
+	editor = code --wait
 [alias]
 	gud = status --porcelain --short
 [gpg]
 	program = gpg
 [commit]
 	gpgSign = true
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+
