@@ -1,8 +1,3 @@
-[submodule "prezto"]
-	path = prezto
-	url = https://github.com/LSmith-Zenoscave/prezto
-	branch = remotes/origin/personal/lsmith-zenoscave
-
 [submodule "Vundle.vim"]
 	path = dotfiles/.vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim
@@ -18,6 +13,11 @@
 [submodule "vim-solarized8"]
 	path = dotfiles/.vim/bundle/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8
+
 [submodule "dotfiles/.vim/bundle/nerdtree"]
 	path = dotfiles/.vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree
+
+[submodule "prezto"]
+	path = prezto
+	url = git@github.com:LSmith-Zenoscave/prezto
