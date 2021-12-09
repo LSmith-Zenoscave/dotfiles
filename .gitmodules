@@ -1,0 +1,4 @@
+[submodule "zprezto"]
+	path = stow/zsh/.zprezto
+	url = git@github.com:LSmith-Zenoscave/prezto.git
+	branch = main
