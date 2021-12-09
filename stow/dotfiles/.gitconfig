@@ -1,0 +1,22 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = LSmith-Zenoscave
+	email =  lsmith@zenoscave.com
+	signingKey = lsmith@zenoscave.com
+[core]
+	excludesfile = /home/lsmith/.gitignore_global
+	pager = less -F -X
+	whitespace = -blank-at-eof
+	editor = code --wait
+[alias]
+	gud = status --porcelain --short
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = true
+[init]
+	defaultBranch = main
