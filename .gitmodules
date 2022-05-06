@@ -2,3 +2,6 @@
 	path = stow/zsh/.zprezto
 	url = git@github.com:LSmith-Zenoscave/prezto.git
 	branch = main
+[submodule "stow/dotfiles/.vim/Vundle.vim"]
+	path = stow/dotfiles/.vim/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
