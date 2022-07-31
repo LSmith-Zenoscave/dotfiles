@@ -16,7 +16,7 @@
 	gud = status --porcelain --short
 [gpg]
 	program = gpg
-[commit]
-	gpgSign = true
+# [commit]
+	# gpgSign = true
 [init]
 	defaultBranch = main
