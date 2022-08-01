@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Powerline font glyphs
 POWERLINE_ENABLE=true
@@ -44,7 +44,7 @@ function start_section () {
 
     if [[ $cur_size -ge $max_width ]]; then
         end_of_status=$((${#tmux_status_right} - (cur_size - max_width) - 2))
-        tmux_status_right="${tmux_status_right:0:end_of_status} "
+        tmux_status_right="${tmux_status_right[0,end_of_status]} "
         end_sections
     fi
 }

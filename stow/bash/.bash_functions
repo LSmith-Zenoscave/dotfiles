@@ -6,9 +6,9 @@ function cs()
 }
 export -f cs
 
-function mkcd()
+function mkdcd()
 {
-  mkdir $1
+  mkdir -p $1
   cd $1
 }
-export -f mkcd
+export -f mkdcd
